@@ -1,0 +1,66 @@
+#more .main{
+    background: #eee;
+}
+#more .list-item{
+    border-bottom: .01rem solid #ccc;
+    &:nth-child(1){
+        margin: .3rem 0;
+        border-top:.01rem solid #ccc;
+        p{
+            &:nth-child(1){
+                .icon{
+                    color:rgb(73, 171, 251);
+                }
+            }
+        }
+    }
+    &:nth-child(2){
+        margin-bottom: .3rem;
+        border-top:.01rem solid #ccc;
+        p{
+            &:nth-child(1){
+                .icon{
+                    color:rgb(255, 236, 68);
+                }
+            }
+        }
+    }
+    &:nth-child(3){
+        border-top:.01rem solid #ccc;
+        p{
+            &:nth-child(1){
+                .icon{
+                    color:rgb(252, 226, 31);
+                }
+            }
+        }
+    }
+    &:nth-child(4){
+        margin-bottom: .3rem;
+        p{
+            &:nth-child(1){
+                .icon{
+                    color:rgb(221, 196, 32);
+                }
+            }
+        }
+    }
+    &:nth-child(5){
+        p{
+            &:nth-child(1){
+                .icon{
+                    color:rgb(141, 240, 60);
+                }
+            }
+        }
+    }
+    &:nth-child(6){
+        p{
+            &:nth-child(1){
+                .icon{
+                    color:rgb(141, 240, 60);
+                }
+            }
+        }
+    }
+}

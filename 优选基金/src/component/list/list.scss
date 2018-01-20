@@ -1,0 +1,79 @@
+.list{
+    width: 100%;
+    padding: .3rem;
+    background: #fff;
+    display: flex;
+    border-bottom: .01rem solid #ccc;
+    dt{
+        flex:8;
+        .list-dt-tit{
+            font-size:.32rem;
+            small{
+                font-size:.32rem;
+            }
+        }
+        .list-dt-cont{
+            display: flex;
+            margin-top: .2rem;
+            .left{
+                display: flex;
+                flex-direction:column;
+                flex:7;
+                p{
+                    color:orange;
+                    font-size: .76rem;
+                    display: inline-block;
+                    transform: scaleY(1.5);
+                    font-weight: 600;
+                    position: relative;
+                    small{
+                        font-size: .34rem;
+                        padding: 0 .1rem;
+                    }
+                    .pos{
+                        position: absolute;
+                        right:1.2rem;
+                        top:.1rem;
+                        transform: scale(1);
+                        font-size: .24rem;
+                        color:#999;
+                    }
+                }
+               
+            }
+            .right{
+                display: flex;
+                flex-direction:column;
+                line-height: .55rem;
+                align-items: center;
+                justify-content: center;
+                flex:3;
+                span{
+                    font-size: .24rem;
+                    color:#999;
+                }
+                small{
+                    font-size:.42rem;
+                    font-weight: none;
+                }
+
+            }
+        }
+    }
+    dd{
+        flex:3;
+        text-align: center;
+    }
+}
+.list-dd-tit{
+    font-size:.3rem;
+    font-weight:600;
+    color:#999;
+}
+.list-dd-bot{
+    font-size:.24rem;
+    margin-top: -.2rem;
+    small{
+        color:rgb(241, 95, 125)
+    }
+}

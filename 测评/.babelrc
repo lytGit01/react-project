@@ -1,0 +1,6 @@
+{
+    "presets": [
+        "env","react"
+    ],
+    "compact": "false" // 默认为auto 去掉提示 包超过500kb
+}

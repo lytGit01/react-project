@@ -1,0 +1,106 @@
+#feel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#feel header{
+    background: #000;
+    color:#fff;
+    small{
+        font-size: .34rem;
+    }
+    .icon{
+        font-size: .4rem;
+    }
+}
+#feel .list{
+    width: 100%;
+    height: 0.96rem;
+    display: flex;
+    padding: 0 .3rem;
+    justify-content: space-between;
+    align-items: center;
+    color:#333;
+    p{
+        font-size: .34rem;
+        width: 33.3%;
+        flex:1;
+        text-align: center;
+        font-weight: 600;        
+        &:nth-child(1){
+            text-align: left;
+            .icon{
+                font-weight: 800;
+            }
+        }
+        &:nth-child(2){
+            
+          small{
+            font-size: .32rem;
+          }
+        }
+    }
+    .icon{
+        font-size: .4rem;
+    }
+}
+#feel .main{
+    flex:1;
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .but{
+        position: absolute;
+        z-index: 6;
+        width: 2.6rem;
+        height: 1rem;
+        bottom: 8%;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+}
+#feel .box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    padding: .1rem;
+    top:5%;
+    z-index: 6;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    h1{
+        font-size: .32rem;
+        color:rgb(131, 48, 48);
+    }
+    .box-cont{
+        width: 100%;
+        margin: .1rem 0;
+        .cont_check{
+            width: 100%;
+            display: flex;
+            margin: .1rem 0;
+            span{
+                border:.01rem solid rgb(131, 48, 48);
+                height: 0.5rem;
+                text-align: center;
+                line-height: .5rem;
+                display: inline-block;
+                padding: 0 .3rem;
+                margin: .1rem;
+                font-size: .24rem;
+            }
+            .cls{
+             background: #f6514b;
+             border-color: #f6514b;
+             color:#fff;  
+            }
+        }
+        
+    }
+}

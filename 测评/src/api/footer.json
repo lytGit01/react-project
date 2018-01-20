@@ -1,0 +1,30 @@
+[
+    {   
+        "id": "1",
+        "name": "首页",
+        "icon": "icon-licai1",
+        "cls": "",
+        "to": "/home"
+    },
+    {   
+        "id": "2",
+        "name": "理财产品",
+        "icon": "icon-licaibao",
+        "cls": "",
+        "to": "/money"
+    },
+    {   
+        "id": "3",
+        "name": "我的账户",
+        "icon": "icon-my",
+        "cls": "",
+        "to": "/my"
+    },
+    {   
+        "id": "4",
+        "name": "更多",
+        "icon": "icon-gengduo",
+        "cls": "",
+        "to": "/more"
+    }
+]

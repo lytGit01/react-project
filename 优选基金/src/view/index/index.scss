@@ -1,0 +1,31 @@
+#index footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    a{
+        width: 25%;
+        text-decoration:none;
+        border-top:.02rem solid #ccc;
+        color:#999;
+        .nav-singer{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+#index .mainBox{
+position: absolute;
+bottom:1rem;
+top:0;
+left: 0;
+right: 0;
+display: flex;
+flex-direction: column;
+.main{
+    overflow-y: scroll;
+}
+}

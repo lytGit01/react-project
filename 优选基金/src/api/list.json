@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "title": "国投润银美丽中国混合",
+        "titleNum": "00063",
+        "percentum": "34.45%",
+        "perName": "季涨幅",
+        "netValue": "2.0320",
+        "titCanvas": "混合型",
+        "radian": "25",
+        "people":  "165"
+    },
+    {
+        "id": "2",
+        "title": "国投润银美丽中国混合",
+        "titleNum": "00063",
+        "percentum": "49.85%",
+        "perName": "季涨幅",
+        "netValue": "2.0320",
+        "titCanvas": "混合型",
+        "radian": "50",
+        "people":  "165"
+    },
+    {
+        "id": "3",
+        "title": "国投润银美丽中国混合",
+        "titleNum": "00063",
+        "percentum": "75.15%",
+        "perName": "季涨幅",
+        "netValue": "2.0320",
+        "titCanvas": "混合型",
+        "radian": "60",
+        "people":  "165"
+    },
+    {
+        "id": "4",
+        "title": "国投润银美丽中国混合",
+        "titleNum": "00063",
+        "percentum": "75.15%",
+        "perName": "季涨幅",
+        "netValue": "2.0320",
+        "titCanvas": "混合型",
+        "radian": "90",
+        "people":  "165"
+    },
+    {
+        "id": "5",
+        "title": "国投润银美丽中国混合",
+        "titleNum": "00063",
+        "percentum": "75.15%",
+        "perName": "季涨幅",
+        "netValue": "2.0320",
+        "titCanvas": "混合型",
+        "radian": "10",
+        "people":  "165"
+    },
+    {
+        "id": "6",
+        "title": "国投润银美丽中国混合",
+        "titleNum": "00063",
+        "percentum": "35.15%",
+        "perName": "季涨幅",
+        "netValue": "2.0320",
+        "titCanvas": "混合型",
+        "radian": "70",
+        "people":  "165"
+    }
+]

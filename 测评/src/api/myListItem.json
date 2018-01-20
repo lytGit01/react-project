@@ -1,0 +1,32 @@
+[
+    {
+        "leftIcon": "icon-touzi-copy",
+        "leftName": "我的投资",
+        "rightName": "0.00",
+        "rightIcon": ">"
+    },
+    {
+        "leftIcon": "icon-jiaoyijilu",
+        "leftName": "交易记录",
+        "rightName": "",
+        "rightIcon": ">"
+    },
+    {
+        "leftIcon": "icon-shenfenrenzheng",
+        "leftName": "身份认证",
+        "rightName": "未认证",
+        "rightIcon": ">"
+    },
+    {
+        "leftIcon": "icon-weibiaoti-",
+        "leftName": "我的银行卡",
+        "rightName": "未绑定",
+        "rightIcon": ">"
+    },
+    {
+        "leftIcon": "icon-shezhi",
+        "leftName": "设置",
+        "rightName": "",
+        "rightIcon": ">"
+    }
+]

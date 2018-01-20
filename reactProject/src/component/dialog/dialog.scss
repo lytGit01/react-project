@@ -1,0 +1,20 @@
+.dialog{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+}
+.conent{
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    top:50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    background: #fff;
+}

@@ -1,0 +1,30 @@
+[
+    {   
+        "id": "1",
+        "name": "推荐有礼",
+        "icon": "icon-tuijianyouli",
+        "cls": "",
+        "to": ""
+    },
+    {   
+        "id": "2",
+        "name": "签到",
+        "icon": "icon-qiandao2",
+        "cls": "",
+        "to": ""
+    },
+    {   
+        "id": "3",
+        "name": "礼券",
+        "icon": "icon-youhui",
+        "cls": "",
+        "to": ""
+    },
+    {   
+        "id": "4",
+        "name": "积分",
+        "icon": "icon-jifen",
+        "cls": "",
+        "to": ""
+    }
+]

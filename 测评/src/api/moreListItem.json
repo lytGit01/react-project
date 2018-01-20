@@ -1,0 +1,39 @@
+[
+    {
+        "leftIcon": "icon-xinwengonggao",
+        "leftName": "新闻公告",
+        "cenName": "",
+        "rightName": "",
+        "rightIcon": ""
+    },
+    {
+        "leftIcon": "icon-huangguan",
+        "leftName": "土豪榜",
+        "rightName": "",
+        "rightIcon": ""
+    },
+    {
+        "leftIcon": "icon-yuanbao",
+        "leftName": "关于我们",
+        "rightName": "",
+        "rightIcon": ""
+    },
+    {
+        "leftIcon": "icon-lianxi1",
+        "leftName": "联系我们",
+        "rightName": "",
+        "rightIcon": ""
+    },
+    {
+        "leftIcon": "icon-xieyi",
+        "leftName": "用户协议",
+        "rightName": "",
+        "rightIcon": ""
+    },
+    {
+        "leftIcon": "icon-bangzhu",
+        "leftName": "帮助中心",
+        "rightName": "",
+        "rightIcon": ""
+    }
+]

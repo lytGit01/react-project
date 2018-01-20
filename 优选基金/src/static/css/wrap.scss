@@ -1,0 +1,40 @@
+html,body,#root,.wrap{
+    width: 100%;
+    height:100%;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 0.96rem;
+    padding: 0 .3rem;
+    background: #ed5858;
+    display: flex;
+    align-items: center;
+    p{
+        width: 33.3%;
+        flex:1;
+        text-align: center;
+        &:nth-child(3){
+            text-align: right;
+        }
+        &:nth-child(1){
+            text-align: left;
+        }
+    }
+}
+.main{
+    flex:1;
+    overflow-y: hidden;
+}
+.active{
+    border-top:.02rem solid #ed5858!important;
+    .icon{
+        color:#ed5858;
+    }
+    small{
+        color:#ed5858;
+    }
+}
