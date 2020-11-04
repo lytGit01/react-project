@@ -48,18 +48,28 @@ class Index extends Component{
 	}
 	render () {
 		let {url} = this.props.match
-		return (<BrowserRouter><div className='wrap' id='index'>  
-            <Route path={`${url}/home`} component={Home}></Route>	
-            <Route path={`${url}/more`} component={More}></Route>	
-            <Route path={`${url}/my`} component={My}></Route>	
-            <Route path={`${url}/money`} component={Money}></Route>
-		<Footer footJson={this.state.footJson} id='footer'>
-        {this.state.footJson.map((item, i) => {
-                return (<NavLink to={url+item.to} key={item.id} exact activeClassName="active"><Navsinger item={item}></Navsinger></NavLink>)
-            })}
-        </Footer>
+		return (
+		<BrowserRouter>
+		<div className='wrap' id='index'>  
+				<Route path={`${url}/home`} component={Home}></Route>	
+				<Route path={`${url}/more`} component={More}></Route>	
+				<Route path={`${url}/my`} component={My}></Route>	
+				<Route path={`${url}/money`} component={Money}></Route>
+				<Footer footJson={this.state.footJson} id='footer'>
+					{
+						this.state.footJson.map((item, i) => {
+							return (
+							<NavLink to={url+item.to} key={item.id} exact activeClassName="active">
+								<Navsinger item={item}></Navsinger>
+							</NavLink>
+							)
+						})
+						}
+				</Footer>
         
-		</div></BrowserRouter>)
+		</div>
+		</BrowserRouter>
+		)
 	}
 }
 export default Index

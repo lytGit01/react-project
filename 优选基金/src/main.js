@@ -1,9 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Home from './view/home/home'
-import More from './view/more/more'
-import My from './view/my/my'
-import Moneys from './view/money/money'
 import Indexs from './view/index/index'
 import * as router from 'react-router-dom'
 const {BrowserRouter,Link,Route, NavLink, Redirect, Switch} = router
